@@ -35,6 +35,10 @@ PALHETA DE CORES
         float: right;
         width: 70%;
     }
+
+    section#login > div#formulario > p {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -48,14 +52,18 @@ PALHETA DE CORES
         background-image: linear-gradient(to top, );
     }
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
 
+    }
+
+    section#login > div#formulario > p {
+        font-size: 1.2em;
     }
 }
