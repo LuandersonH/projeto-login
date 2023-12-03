@@ -67,8 +67,40 @@ section#login > div#formulario > p {
     padding: 5px;
 }
 
+div.campo {
+    background-color: #5f2c82;
+    border: 2px solid #602c8200;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
 div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #4ad0cc;
+    font-size: 1em;
+    width: calc(100% - 44.5px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px);
+}
+
+div.campo input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
@@ -77,7 +109,7 @@ form > input[type=submit] {
     width: 100%;
     height: 40px;
     margin-top: 5px;
-    background-color: #49a09d;
+    background-color: #4ad0cc;
     color: white;
     border: 1px solid #326c6a;
     border-radius: 7px;
@@ -95,7 +127,7 @@ form > a.botao {
     height: 40px;
     padding-top: 5px;
     margin-top: 5px;
-    background-color: #76aeab;
+    background-color: white;
     color: white;
     border: 1px solid #326c6a;
     border-radius: 7px;
