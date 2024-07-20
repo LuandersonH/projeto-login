@@ -127,7 +127,7 @@ form > a.botao {
     height: 40px;
     padding-top: 5px;
     margin-top: 5px;
-    background-color: white;
+    background-color: #3c6462;
     color: white;
     border: 1px solid #326c6a;
     border-radius: 7px;
@@ -135,7 +135,7 @@ form > a.botao {
 }
 
 form > a.botao:hover {
-    background-color: #3c6462;
+    background-color: #326c6a;
 }
 
 form > a.botao > span {
